@@ -1,0 +1,12 @@
+manifest_version: 1
+name: tool-result-compactor
+kind: standalone
+version: 0.1.2
+description: Hermes plugin that compacts oversized tool results into retrievable markers
+  with bounded profile-local storage.
+author: Cole Carden
+license: MIT
+provides_tools:
+- context_compactor_retrieve
+provides_hooks:
+- transform_tool_result
